@@ -13,7 +13,8 @@ const TaskItem = ({ task }) => {
   return (
     <div className={`task-item ${completed ? 'completed' : ''}`}>
       {task.name}
-      <button onClick={handleComplete (task.id)}>
+      <button 
+        onClick={handleComplete (task.id)}>
         Eliminar
       </button>
     </div>
