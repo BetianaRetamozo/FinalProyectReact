@@ -1,7 +1,7 @@
 import './index.css'; 
 import React, { useState, useEffect } from 'react';
-import TaskList from "./TaskList";
-import TaskForm from './TaskForm';
+import TaskList from "./components/TaskList";
+import TaskForm from './components/TaskForm';
 
 const App = () => {
   const savedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
